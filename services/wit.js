@@ -92,7 +92,7 @@ var actions = {
 		//context.forecast = 'Sunny'
 		//var w = getWeather(context)
 
-		cb(w)
+		cb(context)
 	},
 
 	['fetch-pics'](sessionId, context, cb) {
